@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>arrow-right</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1a.-beranda" transform="translate(-233.000000, -4929.000000)">
+            <g id="Group-25" transform="translate(-193.000000, 4386.000000)">
+                <g id="Group-24" transform="translate(0.000000, 142.000000)">
+                    <g id="Group-10" transform="translate(346.000000, 401.000000)">
+                        <g id="arrow-right" transform="translate(80.000000, 0.000000)">
+                            <circle id="Oval" fill="#FFFFFF" cx="32" cy="32" r="32"></circle>
+                            <polyline id="Stroke-1" stroke="#8AA1AC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="26 20 37.5555556 31.5555556 26 43.1111111"></polyline>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

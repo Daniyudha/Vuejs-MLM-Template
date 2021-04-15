@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="38px" viewBox="0 0 38 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>manajemen-cepat</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 0.745098 0 0 0 0 0.058824 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
+        <g id="2a.-tentang-kami" transform="translate(-885.000000, -2633.000000)">
+            <g id="Group-16" transform="translate(258.000000, 2423.000000)">
+                <g id="Group-13" transform="translate(0.000000, 135.000000)">
+                    <g id="Group-11" transform="translate(440.000000, 0.000000)">
+                        <g id="Group-10" transform="translate(48.000000, 40.000000)">
+                            <g id="manajemen-cepat" transform="translate(104.000000, 0.000000)" filter="url(#filter-1)">
+                                <g transform="translate(36.000000, 36.000000)">
+                                    <rect id="Rectangle" stroke="#2F5BEA" stroke-width="2" x="0" y="0" width="15" height="15"></rect>
+                                    <rect id="Rectangle" stroke="#2F5BEA" stroke-width="2" x="21" y="0" width="15" height="15"></rect>
+                                    <rect id="Rectangle" stroke="#2F5BEA" stroke-width="2" x="0" y="21" width="15" height="15"></rect>
+                                    <rect id="Rectangle" stroke="#2F5BEA" stroke-width="2" x="21" y="21" width="15" height="15"></rect>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="610px" height="1218px" viewBox="0 0 610 1218" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>bg-section-2-3</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="610" height="1218"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1a.-beranda" transform="translate(0.000000, -1056.000000)">
+            <g id="bg-section-2-3" transform="translate(0.000000, 1056.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Mask"></g>
+                <g opacity="0.07" mask="url(#mask-2)" id="Oval">
+                    <g transform="translate(-608.000000, 0.000000)">
+                        <circle fill="#FFBE0F" cx="609" cy="609" r="609"></circle>
+                        <circle fill="#FFFFFF" cx="609" cy="609" r="480"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

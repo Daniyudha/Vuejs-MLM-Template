@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="37px" height="40px" viewBox="0 0 37 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>satu-platform</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 0.745098 0 0 0 0 0.058824 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
+        <g id="2a.-tentang-kami" transform="translate(-446.000000, -2632.000000)">
+            <g id="Group-16" transform="translate(258.000000, 2423.000000)">
+                <g id="Group-13" transform="translate(0.000000, 135.000000)">
+                    <g id="Group-9" transform="translate(44.000000, 40.000000)">
+                        <g id="satu-platform" transform="translate(108.000000, 0.000000)" filter="url(#filter-1)">
+                            <g transform="translate(37.000000, 35.000000)">
+                                <path d="M19.40625,38 L3.375,38 C1.51115625,38 0,36.4532273 0,34.5454545 L0,3.45454545 C0,1.54677273 1.51115625,0 3.375,0 L23.625,0 C25.4888438,0 27,1.54677273 27,3.45454545 L27,18.1363636" id="Path" stroke="#2F5BEA" stroke-width="2"></path>
+                                <line x1="0" y1="6.5" x2="27" y2="6.5" id="Path" stroke="#2F5BEA" stroke-width="2"></line>
+                                <line x1="0" y1="29.5" x2="15" y2="29.5" id="Path" stroke="#2F5BEA" stroke-width="2"></line>
+                                <path d="M33.8018417,24.2623171 C31.9776244,22.3398956 28.9325398,22.6540282 27.5,24.9282082 C26.0657935,22.6514031 23.0207089,22.3416456 21.1981583,24.2623171 C19.6006139,25.9458578 19.6006139,28.6759238 21.1981583,30.3585894 L27.4991666,37 L33.8018417,30.3585894 C35.3993861,28.6750487 35.3993861,25.9458578 33.8018417,24.2623171 Z" id="Path" stroke="#2F5BEA" stroke-width="2"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

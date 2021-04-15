@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="45px" height="49px" viewBox="0 0 45 49" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>generation-mlm</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="4a.-business-plan" transform="translate(-664.000000, -2724.000000)">
+            <g id="Group-25" transform="translate(108.000000, 2350.000000)">
+                <g id="Group-21-Copy" transform="translate(153.000000, 355.000000)">
+                    <g id="Group-19-Copy" transform="translate(300.000000, 0.000000)">
+                        <g id="Group-18" transform="translate(13.000000, 19.000000)">
+                            <g id="generation-mlm" transform="translate(91.000000, 0.000000)">
+                                <line x1="28.5" y1="7.5" x2="28.5" y2="27.5" id="Line" stroke="#FBE4A5" stroke-linecap="square" transform="translate(28.500000, 17.500000) rotate(-45.000000) translate(-28.500000, -17.500000) "></line>
+                                <line x1="7.5" y1="26.5" x2="7.5" y2="37.5" id="Line" stroke="#FBE4A5" stroke-linecap="square"></line>
+                                <line x1="0" y1="40.5" x2="43" y2="40.5" id="Line-Copy-3" stroke="#FBE4A5" stroke-linecap="square"></line>
+                                <g id="Group-24" transform="translate(1.000000, 44.000000)" fill="#FFBE0F">
+                                    <circle id="Oval" cx="2.5" cy="2.5" r="2.5"></circle>
+                                    <circle id="Oval-Copy-17" cx="14.5" cy="2.5" r="2.5"></circle>
+                                    <circle id="Oval-Copy-19" cx="32.5" cy="2.5" r="2.5"></circle>
+                                    <circle id="Oval-Copy-3" cx="8.5" cy="2.5" r="2.5"></circle>
+                                    <circle id="Oval-Copy-20" cx="26.5" cy="2.5" r="2.5"></circle>
+                                    <circle id="Oval-Copy-18" cx="20.5" cy="2.5" r="2.5"></circle>
+                                    <circle id="Oval-Copy-21" cx="38.5" cy="2.5" r="2.5"></circle>
+                                </g>
+                                <line x1="14.5" y1="7.5" x2="14.5" y2="27.5" id="Line-Copy" stroke="#FBE4A5" stroke-linecap="square" transform="translate(14.500000, 17.500000) rotate(45.000000) translate(-14.500000, -17.500000) "></line>
+                                <circle id="Oval" fill="#FFBE0F" cx="21.5" cy="7.5" r="7.5"></circle>
+                                <circle id="Oval-Copy" fill="#FFBE0F" cx="35.5" cy="25.5" r="7.5"></circle>
+                                <circle id="Oval-Copy-2" fill="#FFBE0F" cx="7.5" cy="25.5" r="7.5"></circle>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
