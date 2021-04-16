@@ -5,19 +5,25 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav m-auto mr-3">
           <li class="px-2 nav-item">
-            <router-link to="/" class="nav-link">Beranda</router-link>
+            <router-link to="/" class="nav-f">Beranda</router-link>
           </li>
           <li class="px-2 nav-item">
-            <router-link to="/tentangkami" class="nav-link">Tentang Kami</router-link>
+            <router-link to="/tentangkami" class="nav-f">Tentang Kami</router-link>
           </li>
           <li class="px-2 nav-item">
-            <router-link to="/product" class="nav-link">Produk Kami</router-link>
+            <router-link to="/product" class="nav-f">Produk Kami</router-link>
           </li>
           <li class="px-2 nav-item">
-            <router-link to="/bisnisstrategi" class="nav-link">Business Plan</router-link>
+            <router-link to="/bisnisstrategi" class="nav-f">Business Plan</router-link>
           </li>
           <li class="px-2 nav-item">
-            <router-link to="/berita" class="nav-link">Berita</router-link>
+            <router-link to="/berita" class="nav-f">Berita</router-link>
+          </li>
+          <li class="px-2 nav-item">
+            <router-link to="/event" class="nav-f">Event</router-link>
+          </li>
+          <li class="px-2 nav-item">
+            <router-link to="/galeri" class="nav-f">Galeri</router-link>
           </li>
         </ul>
       </div>

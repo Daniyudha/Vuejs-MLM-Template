@@ -5,6 +5,7 @@ import { faUserSecret } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import router from './router'
 import VueCarousel from 'vue-carousel';
+import './assets/js/mklb.js'
 
 Vue.use(VueCarousel);
 

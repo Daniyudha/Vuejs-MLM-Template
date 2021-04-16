@@ -126,7 +126,8 @@
   </div>
   </div>
   <!-- END BISNIS STRATEGI -->
-
+  
+  <!-- Background -->
   <div class="position-relative bgt">
     <img class="w-100" :src="require('@/assets/images/beranda/bg-3-4.png')" alt="">
   </div>
