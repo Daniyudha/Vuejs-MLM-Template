@@ -23,7 +23,8 @@
             <router-link to="/kontak" class="nav-link">Kontak</router-link>
           </li>
         </ul>
-        <a href="login.html"><button class="btn-outline-info2 my-2 my-sm-0" type="submit">Join Now</button></a>
+        <router-link to="/login" class="btn-outline-info2 my-2 my-sm-0" type="submit">Join Now</router-link>
+        <!-- <a href="login.html"><button class="btn-outline-info2 my-2 my-sm-0" type="submit">Join Now</button></a> -->
       </div>
     </nav>
   </header>

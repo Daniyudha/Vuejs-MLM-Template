@@ -3,6 +3,7 @@
     <!-- START HERO -->
     <div class="row justify-content-center">
         <div class="col-7 offset-1 mt-5-5">
+            <div class="container">
             <div class="row">
                 <img class="ml-3 mb-3 wow fadeInLeft" :src="require('@/assets/images/produk/produk-1.png')" alt="">
                 <img class="ml-3 mb-3 wow fadeInDown" data-wow-delay="300ms" :src="require('@/assets/images/produk/produk-2.png')"
@@ -13,6 +14,7 @@
                     alt="">
                 <img class="ml-3 mb-3 wow fadeInUp" data-wow-delay="900ms" :src="require('@/assets/images/produk/produk-4.png')"
                     alt="">
+            </div>
             </div>
         </div>
         <div class="col-4">
@@ -89,7 +91,7 @@
 
     <!-- START PRODUK LEBAHMADU CO. -->
     <div class="t1 container">
-        <h1 class="font-weight-normal wow fadeInDown" data-wow-delay="300ms">PRODUK LEBAHMADU CO.</h1>
+        <h1 class="font-weight-normal mt-5-5 wow fadeInDown" data-wow-delay="300ms">PRODUK LEBAHMADU CO.</h1>
     </div>
     <div class="container mt-5">
         <div class="row">

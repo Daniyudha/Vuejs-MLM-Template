@@ -54,7 +54,8 @@
   </div>
 
   <!-- START VISI MISI -->
-  <div class="row w-100 d-flex justify-content-center t1 wow fadeInDown">
+  <div class="t2">
+  <div class="row w-100 d-flex justify-content-center mt-5-5  wow fadeInDown">
     <img class="box" :src="require('@/assets/images/tentang kami/visi-misi.png')" alt="">
     <h6 class="mt-4 ml-3 font-weight-bold">Visi & Misi</h6>
   </div>
@@ -79,10 +80,12 @@
           <p class="text-left mt-4">Praesent mattis pretium odio sit amet mattis. Etiam maximus felis sed tincidunt
             facilisis. Integer eu est turpis. Maecenas faucibus eu risus eu fringilla. Nunc a rutrum velit. Ut in ex
             vel ligula venenatis commodo. Mauris pulvinar sit amet arcu vitae auctor. Cras a vestibulum ipsum. Aliquam
-            id bibendum massa. Maecenas interdum nisl quis velit consequat, sit amet venenatis mi varius.</p>
+            id bibendum massa. Maecenas interdum nisl quis velit consequat, sit amet venenatis mi varius. Proin et massa sit
+            amet erat aliquet condimentum.</p>
         </div>
       </div>
     </div>
+  </div>
   </div>
   </div>
   <!-- END VISI MISI -->
@@ -142,7 +145,7 @@
         Nulla facilisi. Vivamus quis sagittis purus. Donec nec odio risus. Fusce aliquet dapibus justo, non tincidunt
         purus tristique sed. Phasellus elit eros, vulputate at massa suscipit, scelerisque molestie diam.</p>
     </div>
-    <div class="col-lg-5 offset-lg-1 mt-5">
+    <div class="col-lg-5 offset-lg-1">
       <div>
         <h3 class="m-branding wow fadeInUp" data-wow-delay="600ms">BRANDING UNTUK <br> BISNIS ANDA</h3>
         <img class="ml-produk wow fadeInRight" :src="require('@/assets/images/tentang kami/branding.png')" alt="">

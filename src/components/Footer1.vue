@@ -5,19 +5,19 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav m-auto mr-3">
           <li class="px-2 nav-item">
-            <a class="nav-f active" href="index.html">Beranda</a>
+            <router-link to="/" class="nav-link">Beranda</router-link>
           </li>
           <li class="px-2 nav-item">
-            <a class="nav-f" href="Tentang Kami.html">Tentang Kami</a>
+            <router-link to="/tentangkami" class="nav-link">Tentang Kami</router-link>
           </li>
           <li class="px-2 nav-item">
-            <a class="nav-f" href="produk.html">Produk Kami</a>
+            <router-link to="/product" class="nav-link">Produk Kami</router-link>
           </li>
           <li class="px-2 nav-item">
-            <a class="nav-f" href="business plan.html">Business Plan</a>
+            <router-link to="/bisnisstrategi" class="nav-link">Business Plan</router-link>
           </li>
           <li class="px-2 nav-item">
-            <a class="nav-f" href="berita.html">Berita</a>
+            <router-link to="/berita" class="nav-link">Berita</router-link>
           </li>
         </ul>
       </div>

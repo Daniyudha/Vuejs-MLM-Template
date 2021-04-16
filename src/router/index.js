@@ -29,6 +29,26 @@ const routes = [
     path: '/kontak',
     name: 'Kontak',
     component: () => import('../views/Kontak.vue')
+  },
+  {
+    path: '/berita',
+    name: 'Berita',
+    component: () => import('../views/Berita.vue')
+  },
+  {
+    path: '/viewberita',
+    name: 'ViewBerita',
+    component: () => import('../views/ViewBerita.vue')
+  },
+  {
+    path: '/login',
+    name: 'Login',
+    component: () => import('../views/Login.vue')
+  },
+  {
+    path: '/signup',
+    name: 'Signup',
+    component: () => import('../views/Signup.vue')
   }
 ]
 
