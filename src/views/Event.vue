@@ -1,29 +1,16 @@
 <template>
     <div class="event">
-            <!-- START SLIDER -->
-            <div class="text-center">
-                <h5 class="wow fadeInDown" data-wow-delay="200ms">Event</h5>
-                <h1 class="text-kuning font-weight-bold wow fadeInDown" data-wow-delay="500ms">HONEYBEE</h1>
-            </div>
+    <!-- START SLIDER -->
+    <div class="text-center mt-5">
+        <h5 class="wow fadeInDown" data-wow-delay="200ms">Event</h5>
+        <h1 class="text-kuning font-weight-bold wow fadeInDown" data-wow-delay="500ms">HONEYBEE</h1>
+    </div>
+    <SlideEvent/>
+    <!-- END SLIDER -->
 
-            <!-- <div class="col-md-12">
-                <div class="owl-carousel event-carousel">
-                  <div class="item"><img class="ron" src="assets/images/event/seminar-besar.png" alt=""></div>
-                    <div id="carrousel">
-                        <div class="item"><img class="ron" src="assets/images/event/seminar-kota-tasik.png" alt=""></div>
-                        <div class="item"><img class="ron" src="assets/images/event/seminar-besar.png" alt=""></div>
-                        <div class="item"><img class="ron" src="assets/images/event/seminar-kota-tasik.png" alt=""></div>
-                    <div class="container">
-                        <div class="item"><img class="ron" src="assets/images/event/seminar-besar.png" alt=""></div>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-        <!-- END SLIDER -->
-
-        <!-- START EVENT GALLERY -->
-    <section class="strategi py-3">
-        <div class="text-center mt-5">
+    <!-- START EVENT GALLERY -->
+    <section class="strategi">
+        <div class="text-center">
             <h3 class="text-kuning mb-4 wow fadeInDown" data-wow-delay="700ms">EVENT GALLERY</h3>
             <form class="form-search wow fadeInDown" data-wow-delay="900ms" method="get" action="#">
                 <input type="search" name="search" placeholder="Nama / tgl event">
@@ -32,7 +19,7 @@
         </div>
         <div class="row justify-content-center mt-5 wow fadeIn" data-wow-delay="1300ms">
             <div class="card-berita body-berita col-5 img-fluid mx-3 my-3">
-                <img class="card-img-top rounded" src="assets/images/event/seminar-besar.png" alt="Card image cap">
+                <img class="card-img-top rounded" :src="require('@/assets/images/event/seminar-besar.png')" alt="Card image cap">
                 <div class="">
                     <h6 class="mt-3 font-weight-bold">20 DESEMBER 2020</h6>
                     <h4 class="mt-3 mb-3">SEMINAR BESAR KOTA TEGAL</h4>
@@ -42,7 +29,7 @@
                 </div>
             </div>
             <div class="card-berita body-berita col-5 img-fluid mx-3 my-3">
-                <img class="card-img-top rounded" src="assets/images/event/seminar-kota-tasik.png" alt="Card image cap">
+                <img class="card-img-top rounded" :src="require('@/assets/images/event/seminar-kota-tasik.png')" alt="Card image cap">
                 <div class="">
                     <h6 class="mt-3 font-weight-bold">20 DESEMBER 2020</h6>
                     <h4 class="mt-3 mb-3">SEMINAR BESAR KOTA TEGAL</h4>
@@ -54,7 +41,7 @@
         </div>
         <div class="row justify-content-center">
             <div class="card-berita body-berita col-5 img-fluid mx-3 my-3">
-                <img class="card-img-top rounded" src="assets/images/event/seminar-kota-tasik.png" alt="Card image cap">
+                <img class="card-img-top rounded" :src="require('@/assets/images/event/seminar-kota-tasik.png')" alt="Card image cap">
                 <div class="">
                     <h6 class="mt-3 font-weight-bold">20 DESEMBER 2020</h6>
                     <h4 class="mt-3 mb-3">SEMINAR BESAR KOTA TEGAL</h4>
@@ -64,7 +51,7 @@
                 </div>
             </div>
             <div class="card-berita body-berita col-5 img-fluid mx-3 my-3">
-                <img class="card-img-top rounded" src="assets/images/event/seminar-besar.png" alt="Card image cap">
+                <img class="card-img-top rounded" :src="require('@/assets/images/event/seminar-besar.png')" alt="Card image cap">
                 <div class="">
                     <h6 class="mt-3 font-weight-bold">20 DESEMBER 2020</h6>
                     <h4 class="mt-3 mb-3">SEMINAR BESAR KOTA TEGAL</h4>
@@ -81,11 +68,13 @@
 </template>
 
 <script>
+import SlideEvent from '../components/SlideEvent.vue'
 import Footer1 from '../components/Footer1.vue'
 
 export default {
     name: 'Event',
     components: {
+        SlideEvent,
         Footer1
     }
 }

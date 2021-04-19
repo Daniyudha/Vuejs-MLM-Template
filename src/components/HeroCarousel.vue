@@ -7,12 +7,13 @@
     :loop="true"
   >
     <slide>
+      <div class="container-fluid" style="background-image: url('/img/bg-section-1-1.png'); max-width: 2560px;">
       <div class="container">
-        <div class="row justify-content-center" style="background-image: url(assets/images/beranda/bg-section-1-1.png);">
+        <div class="row justify-content-center" >
           <div class="col-8 g-slide wow fadeInLeft">
             <img :src="require('@/assets/images/beranda/image-slider-1.png')" alt="">
           </div>
-          <div class="col-4 align-content-center">
+          <div class="col-4">
             <h1 class="text-kuning mt-des text-h1 wow fadeInRight" data-wow-delay="400ms">Honeybee</h1>
             <h2 class="text-kuning wow fadeInRight" data-wow-delay="600ms">Madu dengan beepolen</h2>
             <p class="mt-5 wow fadeInRight" data-wow-delay="800ms">Lorem ipsum, or lipsum as it is sometimes known, is
@@ -39,10 +40,12 @@
           </div>
         </div>
       </div>
+      </div>
     </slide>
     <slide>
+      <div class="container-fluid" style="background-image: url('/img/bg-section-1-2\ \(1\).png'); max-width: 2560px;">
       <div class="container">
-        <div class="row" style="background-image: url(assets/images/beranda/bg-section-1-2\ \(1\).png);">
+        <div class="row">
           <div class="container col-4 align-content-center">
             <div class="container">
               <h1 class="text-kuning mt-des text-h1 wow fadeInUp">Honeybee</h1>
@@ -68,7 +71,6 @@
                   <p>85mg</p>
                 </div>
               </div>
-
             </div>
           </div>
           <div class="col-6 g-slide2 wow fadeInRight" data-wow-delay="600ms">
@@ -76,10 +78,12 @@
           </div>
         </div>
       </div>
+      </div>
     </slide>
     <slide>
+      <div class="container-fluid" style="background-image: url(/img/bg-section-1-3\ \(1\).png); max-width: 2560px;">
       <div class="container">
-        <div class="row" style="background-image: url(assets/images/beranda/bg-section-1-3\ \(1\).png);">
+        <div class="row">
           <div class="container ">
             <div class="row mt-card">
               <div class="col-3 mt-des text-right wow fadeInLeft" data-wow-delay="100ms">
@@ -108,6 +112,7 @@
           </div>
         </div>
       </div>
+      </div>
     </slide>
   </carousel>
 </template>
@@ -122,3 +127,4 @@ export default {
     Slide,
   },
 };
+</script>

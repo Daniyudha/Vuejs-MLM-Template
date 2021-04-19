@@ -148,7 +148,7 @@
       </a>
     </div>
     <div>
-      <img src="assets/images/tentang kami/bg-section-3.png" alt="" srcset="">
+      <img :src="require('@/assets/images/tentang kami/bg-section-3.png')" alt="" srcset="">
     </div>
     <div class="offset-1"></div>
   </div>

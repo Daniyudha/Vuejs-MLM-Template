@@ -1454,6 +1454,14 @@ section.imageContainer {
 }
 
 .event-next{
+  background: url(../images/beranda/arrow-right.svg);
+}
+
+.event-next{
+  background: url(../images/beranda/arrow-left.svg);
+}
+
+.event-next{
   position: absolute;
   right: -25px;
   top: 40%;
