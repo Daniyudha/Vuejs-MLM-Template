@@ -1,6 +1,7 @@
 <template>
   <div class="product">
     <!-- START HERO -->
+    <Navbar1/>
     <div class="row justify-content-center">
         <div class="col-7 offset-1 mt-5-5">
             <div class="container">
@@ -174,12 +175,14 @@
 </template>
 
 <script>
+import Navbar1 from '../components/Navbar1.vue'
 import Bergabung from '../components/Bergabung.vue'
 import Footer2 from '../components/Footer2.vue'
 
 export default {
   name: 'Product',
   components: {
+    Navbar1,
     Bergabung,
     Footer2
   }

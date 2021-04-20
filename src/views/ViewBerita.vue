@@ -1,5 +1,6 @@
 <template>
 <div class="viewberita">
+    <Navbar2/>
     <!-- START KONTEN -->
     <div class="container">
         <h5 class="mt-5">FINANCE > ENERGI</h5>
@@ -54,11 +55,13 @@
 </template>
 
 <script>
+import Navbar2 from '../components/Navbar2.vue'
 import Footer1 from '../components/Footer1.vue'
 
 export default {
     name: 'ViewBerita',
     components: {
+        Navbar2,
         Footer1
     }
 }

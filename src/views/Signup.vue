@@ -1,5 +1,25 @@
 <template>
     <div class="signup">
+    <!-- START NAVBAR -->
+    <header class="header" id="header">
+    <nav class="container mt-4 navbar navbar-expand-lg navbar-light bg-navtk rounded px-4">
+      <router-link to="/" class="navbar-brand">lebahmadu co<b style="color: rgb(248, 211, 0);">.</b></router-link>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto mr-3">
+          <li class="px-2 nav-item">
+            <router-link to="/login" class="btn-outline-info2 px-3 my-2 my-sm-0 ron" type="submit">Join Now</router-link>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    </header>
+    <!-- END NAVBAR -->
+
     <!-- START KONTEN -->
     <div class="container">
     <div class="row justify-content-center">

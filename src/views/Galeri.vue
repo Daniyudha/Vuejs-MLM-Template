@@ -1,8 +1,9 @@
 <template>
     <div class="galeri">
+        <Navbar2/>
         <!-- START KONTEN -->
     <section>
-        <div class="text-center mb-5">
+        <div class="text-center mb-5 mt-5">
             <h5 class="wow fadeInDown" data-wow-delay="200ms">Galeri</h5>
             <h1 class="text-kuning font-weight-bold wow fadeInDown" data-wow-delay="500ms">HONEYBEE</h1>
         </div>
@@ -44,11 +45,13 @@
 </template>
 
 <script>
+import Navbar2 from '../components/Navbar2.vue'
 import Footer1 from '../components/Footer1.vue'
 
 export default {
     name: 'Galeri',
     components: {
+        Navbar2,
         Footer1
     }
 }

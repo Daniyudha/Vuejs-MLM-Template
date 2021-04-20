@@ -1,6 +1,6 @@
 <template>
   <!-- START NAVBAR -->
-  <header class="header" id="header">
+  <header class="" id="header">
     <nav class="container mt-4 navbar navbar-expand-lg navbar-light bg-navtk rounded px-4">
       <router-link to="/" class="navbar-brand">lebahmadu co<b style="color: rgb(248, 211, 0);">.</b></router-link>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -24,7 +24,6 @@
           </li>
         </ul>
         <router-link to="/login" class="btn-outline-info2 ron px-3 my-2 my-sm-0" type="submit">Join Now</router-link>
-        <!-- <a href="login.html"><button class="btn-outline-info2 my-2 my-sm-0" type="submit">Join Now</button></a> -->
       </div>
     </nav>
   </header>
@@ -33,6 +32,6 @@
 
 <script>
 export default {
-  name: 'Navbar1',
+  name: 'Navbar2',
 }
 </script>

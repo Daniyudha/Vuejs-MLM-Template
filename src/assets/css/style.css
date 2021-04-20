@@ -31,6 +31,7 @@ body{
   color: #000000;
 }
 
+.nav-f:hover,.nav-f:active,
 .nav-f:hover,.nav-f.active{
   color: #000000;
   text-decoration: line-through;
@@ -1480,3 +1481,11 @@ section.imageContainer {
   background-color: orange;
 }
 
+.py-6{
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+}
+
+.font-kecil{
+  font-size: small;
+}

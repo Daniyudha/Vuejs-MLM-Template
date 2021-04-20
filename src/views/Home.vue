@@ -1,5 +1,6 @@
 <template>
   <div class="home">
+    <NavbarHome/>
     <HeroCarousel/>
     <!-- START CLIENT -->
   <div class="container-fluid" style="background-color: rgb(235, 235, 235); max-width: 2560px;">
@@ -237,6 +238,7 @@
 
 <script>
 // @ is an alias to /src
+import NavbarHome from '@/components/NavbarHome.vue'
 import HeroCarousel from '@/components/HeroCarousel.vue'
 import Bergabung from '../components/Bergabung.vue'
 import Footer1 from '../components/Footer1.vue'
@@ -245,6 +247,7 @@ import Promo from '../components/Promo.vue'
 export default {
   name: 'Home',
   components: {
+    NavbarHome,
     HeroCarousel,
     Bergabung,
     Footer1,

@@ -5,11 +5,13 @@
     :mouse-drag="true"
     :autoplay="true"
     :loop="true"
+    :paginationEnabled="false"
+    :navigationEnabled="true"
   >
     <slide>
-      <div class="container-fluid" style="background-image: url('/img/bg-section-1-1.png'); max-width: 2560px;">
+      <div class="container-fluid" style="background-image: url('/img/bg-1-1.png'); max-width: 2560px;">
       <div class="container">
-        <div class="row justify-content-center" >
+        <div class="row justify-content-center py-6" >
           <div class="col-8 g-slide wow fadeInLeft">
             <img :src="require('@/assets/images/beranda/image-slider-1.png')" alt="">
           </div>
@@ -43,9 +45,9 @@
       </div>
     </slide>
     <slide>
-      <div class="container-fluid" style="background-image: url('/img/bg-section-1-2\ \(1\).png'); max-width: 2560px;">
+      <div class="container-fluid" style="background-image: url('/img/bg-1-2.png'); max-width: 2560px;">
       <div class="container">
-        <div class="row">
+        <div class="row py-6">
           <div class="container col-4 align-content-center">
             <div class="container">
               <h1 class="text-kuning mt-des text-h1 wow fadeInUp">Honeybee</h1>
@@ -63,7 +65,7 @@
                   <p>11g</p>
                 </div>
                 <div class="col-3 text-center">
-                  <p>Total Fat</p>
+                  <p>TotalFat</p>
                   <p>5g</p>
                 </div>
                 <div class="col-3 text-center">
@@ -81,10 +83,10 @@
       </div>
     </slide>
     <slide>
-      <div class="container-fluid" style="background-image: url(/img/bg-section-1-3\ \(1\).png); max-width: 2560px;">
+      <div class="container-fluid" style="background-image: url(/img/bg-1-3.png); max-width: 2560px;">
       <div class="container">
-        <div class="row">
-          <div class="container ">
+        <div class="row py-6">
+          <div class="container">
             <div class="row mt-card">
               <div class="col-3 mt-des text-right wow fadeInLeft" data-wow-delay="100ms">
                 <h5 class="font-weight-bold">Madu Beepolen</h5>

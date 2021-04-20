@@ -1,12 +1,12 @@
 <template>
 <div class="berita">
+    <Navbar2/>
     <div class="container">
     <!-- START SLIDER -->
     <div class="text-center mt-5">
         <h5 class=" wow fadeInDown">Berita</h5>
         <h1 class="text-kuning font-weight-bold wow fadeInDown" data-wow-delay="300ms">HONEYBEE</h1>
         <SlideBerita/>
-        <SlideEvent/>
     </div>
     <!-- END SLIDER -->
 
@@ -133,15 +133,15 @@
 </template>
 
 <script>
+import Navbar2 from '../components/Navbar2.vue'
 import SlideBerita from '../components/SlideBerita.vue'
-import SlideEvent from '../components/SlideEvent.vue'
 import Footer1 from '../components/Footer1.vue'
 
 export default {
     name: 'Berita',
     components: {
+        Navbar2,
         SlideBerita,
-        SlideEvent,
         Footer1
     }
 }

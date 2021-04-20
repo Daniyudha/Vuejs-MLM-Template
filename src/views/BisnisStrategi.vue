@@ -1,5 +1,6 @@
 <template>
 <div class="bisnisstrategi">
+    <Navbar1/>
         <!-- START HERO -->
     <section class="business-1 py-5">
         <div class="text-center mt-des mb-5">
@@ -250,12 +251,14 @@
 </template>
 
 <script>
+import Navbar1 from '../components/Navbar1.vue'
 import Bergabung from '../components/Bergabung.vue'
 import Footer2 from '../components/Footer2.vue'
 
 export default {
   name: 'BisnisStrategi',
   components: {
+    Navbar1,
     Bergabung,
     Footer2
   }

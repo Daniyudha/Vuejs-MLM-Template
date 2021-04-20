@@ -1,5 +1,6 @@
 <template>
 <div class="tentangkami">
+  <Navbar1/>
   <!-- START HERO -->
   <div class="container">
   <div class="row">
@@ -169,12 +170,14 @@
 </template>
 
 <script>
+import Navbar1 from '../components/Navbar1.vue'
 import Bergabung from '../components/Bergabung.vue'
 import Footer2 from '../components/Footer2.vue'
 
 export default {
   name: 'TentangKami',
   components: {
+    Navbar1,
     Bergabung,
     Footer2
   }

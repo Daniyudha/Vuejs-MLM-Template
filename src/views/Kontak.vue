@@ -1,5 +1,6 @@
 <template>
   <div class="kontak">
+    <Navbar1/>
     <!-- START CONTACT US -->
     <div class="container">
     <div class="row justify-content-center">
@@ -26,11 +27,13 @@
 </template>
 
 <script>
+import Navbar1 from '../components/Navbar1.vue'
 import Footer1 from '../components/Footer1.vue'
 
 export default {
   name: 'Kontak',
   components: {
+    Navbar1,
     Footer1
   }
 }
