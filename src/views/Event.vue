@@ -10,7 +10,7 @@
     <!-- END SLIDER -->
 
     <!-- START EVENT GALLERY -->
-        <div class="text-center">
+        <div class="text-center mt-5">
             <h3 class="text-kuning mb-4 wow fadeInDown" data-wow-delay="700ms">EVENT GALLERY</h3>
             <form class="form-search wow fadeInDown" data-wow-delay="900ms" method="get" action="#">
                 <input type="search" name="search" placeholder="Nama / tgl event">
@@ -65,56 +65,7 @@
         </div>
     <!-- END EVENT GALLERY -->
 
-    <!-- Modal Seminar -->
-    <div id="seminar" class="modal fade">
-        <div class="modal-dialog modal-lg modal-scroll modal-body-scroll modal-dialog-centered ron">
-            <div class="modal-content">
-                <div class="modal-body">
-                    <div class="row">
-                        <div class="col-6">
-                            <img class="ron position-fixed img-modal" src="assets/images/event/seminar-besar.png"
-                                alt="">
-                        </div>
-                        <div class="col-6">
-                            <h5>SEMINAR BESAR KOTA TEGAL</h5>
-                            <h6 class="font-weight-bold mt-3">Tempat</h6>
-                            <p>Jl. Perintis Kemerdekaan No.25, Panggung, Kec. Tegal Timur, Kota Tegal, Jawa Tengah 52122
-                            </p>
-                            <div class="row">
-                                <div class="col-4">
-                                    <p class="font-weight-bold">Waktu</p>
-                                    <p class="fa-xs">Pukul 19.00 WIB</p>
-                                </div>
-                                <div class="col-5">
-                                    <p class="font-weight-bold">Kontak Person</p>
-                                    <p class="fa-xs">0813-3467-8198</p>
-                                </div>
-                                <div class="col-3 text-center">
-                                    <p class="font-weight-bold">HTM</p>
-                                    <p class="fa-xs">-</p>
-                                </div>
-                            </div>
-                            <p>Masa Pandemi Covid-19 membuat pola pendidikan berubah. Semula proses belajar mengajar
-                                dilakukan dengan tatap muka. Tetapi kini, proses belajar mengajar dilakukan secara jarak
-                                jauh dengan memanfaatkan jaringan internet, serta teknologi informasi dan komunikasi
-                                (TIK).
-                            </p>
-                            <p>Dari segi manfaat, dilakukannya pembelajaran jarak jauh (PJJ) telah menjejakkan proses
-                                pendidikan di tanah air ke arah digitalisasi. Namun di sisi lain, hal itu juga
-                                menimbulkan hambatan. Bagi daerah yang mengalami kendala akses internet dan ketiadaan
-                                gawai karena rendahnya tingkat ekonomi masyarakat PJJ cukup sulit untuk dilakukan.
-                                Selain itu, proses belajar mengajar yang membutuhkan praktek secara langsung juga
-                                mengalami kendala.</p>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-            <!-- /.modal-content -->
-        </div>
-        <!-- /.modal-dialog -->
-    </div>
-    <!-- /.modal -->
+    
         <Footer1/>
     </div>
 </template>

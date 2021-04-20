@@ -1,8 +1,8 @@
 <template>
   <div id="app">
   <div class="container">
-    <carousel class=" berita-carousel" :responsive="{0:{items:1,nav:false},600:{items:1.33,nav:false}}" 
-    :center="true" :loop="true" :dots="false">
+    <carousel class=" berita-carousel" :responsive="{0:{items:1,nav:false},600:{items:1.33,nav:true}}" 
+    :center="true" :loop="true" :dots="false" :navText="navSlide">
         <div class="item">
                         <div class="slider-card">
                             <div class="row align-items-center">
@@ -83,7 +83,10 @@ export default {
   components: { carousel },
   data() {
       return {
-        
+        navSlide: [
+          '<i class="event-nav event-prev fas fa-chevron-left"></i>',
+          '<i class="event-nav event-next fas fa-chevron-right"></i>'
+        ]
       }
     },
 };

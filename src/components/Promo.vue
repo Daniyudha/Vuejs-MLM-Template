@@ -7,7 +7,7 @@
     </div>
   </div>
     <carousel class="stack-carousel" :responsive="{0:{items:1,nav:false},600:{items:2.4,nav:true}}" 
-    :center="true" :loop="true" :dots="false">
+    :center="true" :loop="true" :dots="false" :navText="navSlide">
     <div class="item text-center">
       <img class="ron" :src="require('@/assets/images/beranda/slide-1.jpg')" alt="">
       <h3 class="font-weight-bold mt-3">Penjualan Madu Meningkat</h3>
@@ -39,7 +39,10 @@ export default {
   components: { carousel },
   data() {
       return {
-        
+        navSlide: [
+          '<i class="promo-nav promo-prev fas fa-chevron-left"></i>',
+          '<i class="promo-nav promo-next fas fa-chevron-right"></i>'
+        ]
       }
     },
 };

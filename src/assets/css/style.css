@@ -1373,8 +1373,9 @@ section.imageContainer {
   
 }
 .promo-prev{
+  color: rgb(139, 139, 139);
   left: 5%;
-  top: 85%;
+  top: 90%;
   background-color: #fff;
   width: 50px;
   height: 50px;
@@ -1384,8 +1385,9 @@ section.imageContainer {
   font-size: 20px !important;
 }
 .promo-next{
+  color: rgb(139, 139, 139);
   left: 10%;
-  top: 85%;
+  top: 90%;
   background-color: #fff;
   width: 50px;
   height: 50px;
@@ -1407,8 +1409,10 @@ section.imageContainer {
   left: 50px;
 } */
 .event-prev{
+  position: absolute;
   left: 0px;
   top: 10px;
+  color: #979592;
   background-color: #fff;
   width: 50px;
   height: 50px;
@@ -1418,8 +1422,10 @@ section.imageContainer {
   font-size: 20px !important;
 }
 .event-next{
+  position: absolute;
   right: 0px;
   top: 10px;
+  color: #979592;
   background-color: #fff;
   width: 50px;
   height: 50px;
