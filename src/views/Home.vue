@@ -4,13 +4,13 @@
     <HeroCarousel/>
     <!-- START CLIENT -->
   <div class="container-fluid" style="background-color: rgb(235, 235, 235); max-width: 2560px;">
-    <div class="row py-4 wow fadeInDown">
-      <div class="container">
-        <img class="mx-5" :src="require('@/assets/images/beranda/nike.png')" alt="">
-        <img class="mx-5" :src="require('@/assets/images/beranda/google.png')" alt="">
-        <img class="mx-5" :src="require('@/assets/images/beranda/cocacola.png')" alt="">
-        <img class="mx-5" :src="require('@/assets/images/beranda/pepsi.png')" alt="">
-        <img class="mx-5" :src="require('@/assets/images/beranda/microsoft.png')" alt="">
+    <div class="container">
+      <div class="row justify-content-center">
+        <img class="mx-5 my-4" :src="require('@/assets/images/beranda/nike.png')" alt="">
+        <img class="mx-5 my-4" :src="require('@/assets/images/beranda/google.png')" alt="">
+        <img class="mx-5 my-4" :src="require('@/assets/images/beranda/cocacola.png')" alt="">
+        <img class="mx-5 my-4" :src="require('@/assets/images/beranda/pepsi.png')" alt="">
+        <img class="mx-5 my-4" :src="require('@/assets/images/beranda/microsoft.png')" alt="">
       </div>
     </div>
   </div>
@@ -26,7 +26,7 @@
   <div class="container d-flex justify-content-center mt-5">
     <div class="row mt-4">
       <!-- Visi & Misi -->
-      <div class="col-lg-4 col-md-4">
+      <div class="col-lg-4 col-md-4 col-sm-12">
         <div class="card mb-5 py-4 px-2 mb-lg-0 wow zoomIn" data-wow-delay="300ms">
           <div class="card-body">
             <div class="text-center">
@@ -40,7 +40,7 @@
         </div>
       </div>
       <!-- Strategi -->
-      <div class="col-lg-4 col-md-4">
+      <div class="col-lg-4 col-md-4 col-sm-12">
         <div class="card mb-5 py-4 px-2 mb-lg-0 wow zoomIn" data-wow-delay="600ms">
           <div class="card-body">
             <div class="text-center">
@@ -54,7 +54,7 @@
         </div>
       </div>
       <!-- Produk Kualitas -->
-      <div class="col-lg-4 col-md-4">
+      <div class="col-lg-4 col-md-4 col-sm-12">
         <div class="card mb-5 py-4 px-2 mb-lg-0 wow zoomIn" data-wow-delay="900ms">
           <div class="card-body">
             <div class="text-center">
@@ -81,7 +81,7 @@
         <p class="mt-2">Madu Alami Untuk <br> Kesehatan</p>
         <a href="produk.html"><button class="btn-transparant text-white rounded mt-2">Main Product</button></a>
       </div>
-      <img class="z mx-3" :src="require('@/assets/images/beranda/ilus-produk-1.png')" alt="">
+      <img class="z mx-3 mb-4" :src="require('@/assets/images/beranda/ilus-produk-1.png')" alt="">
     </div>
     <div>
       <div class="row">
@@ -120,10 +120,10 @@
 
   <!-- START OUR PRODUCT -->
   <div class="mt-ilus row justify-content-center">
-    <div class="col-lg-7 wow fadeInLeft">
+    <div class="col-lg-7 col-md-12 wow fadeInLeft">
       <img :src="require('@/assets/images/beranda/ilus-produk-section-3.png')" alt="">
     </div>
-    <div class="col-lg-4 mt-5-5">
+    <div class="col-lg-4 col-md-8 mt-5-5">
       <div class="wow fadeInRight">
         <h4 class="font-weight-bold">Our Product</h4>
         <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web
@@ -148,10 +148,10 @@
         </div>
       </a>
     </div>
-    <div>
-      <img :src="require('@/assets/images/tentang kami/bg-section-3.png')" alt="" srcset="">
+    <div class="col-lg-1 col-md-1">
+      <img class="aksen1" :src="require('@/assets/images/tentang kami/bg-section-3.png')" alt="" srcset="">
     </div>
-    <div class="offset-1"></div>
+    <!-- <div class="offset-1"></div> -->
   </div>
   <!-- END PRODUCT -->
 
@@ -169,7 +169,7 @@
   </div>
   <div class="container">
   <div class="row d-flex justify-content-center mt-5">
-    <article class="mt-5 col-lg-3 wow fadeInLeft" data-wow-delay="200ms">
+    <article class="mt-5 col-lg-3 mb-5 wow fadeInLeft" data-wow-delay="200ms">
       <figure>
         <img alt="" :src="require('@/assets/images/beranda/girl1.jpg')" />
       </figure>
@@ -187,7 +187,7 @@
         <span class=""><i class="text-muted fa fa-star"></i></span>
       </div>
     </article>
-    <article class="mt-5 col-lg-3 offset-1 wow fadeInUp" data-wow-delay="200ms">
+    <article class="mt-5 col-lg-3 mb-5 wow fadeInUp" data-wow-delay="200ms">
       <figure>
         <img alt="" :src="require('@/assets/images/beranda/man2.jpg')" />
       </figure>
@@ -205,7 +205,7 @@
         <span class=""><i class="text-muted fa fa-star"></i></span>
       </div>
     </article>
-    <article class="mt-5 col-lg-3 offset-1 wow fadeInRight" data-wow-delay="200ms">
+    <article class="mt-5 col-lg-3 mb-5 wow fadeInRight" data-wow-delay="200ms">
       <figure>
         <img alt="" :src="require('@/assets/images/beranda/girl2.jpg')" />
       </figure>

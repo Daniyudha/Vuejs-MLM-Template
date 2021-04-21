@@ -31,8 +31,8 @@
     <div class="page-footer-section fg-white" id="contact">
       <hr />
       <div class="container">
-        <div class="row footer-middle">
-          <div class="col-lg-4 col-md-3 col-sm-12">
+        <div class="row footer-middle justify-content-center">
+          <div class="col-lg-4 col-md-10 col-sm-12 mb-5">
             <h5>lebahmadu co <b class="text-kuning">.</b></h5>
             <p>
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
@@ -48,7 +48,7 @@
               <li><a href="business plan.html" class="">Business Plan</a></li>
             </ul>
           </div>
-          <div class="col-lg-2 col-md-3">
+          <div class="col-lg-2 col-md-4">
             <h5>More info</h5>
             <ul class="list-unstyled text-small">
               <li><a href="#" class="">How it work</a></li>
@@ -57,7 +57,7 @@
               <li><a href="#" class="">Terms & Conditions</a></li>
             </ul>
           </div>
-          <div class="col-lg-3 col-md-3">
+          <div class="col-lg-3 col-md-4">
             <h5>Customer care</h5>
             <ul class="list-unstyled text-small">
               <li><a href="#" class="">FAQ</a></li>
@@ -76,10 +76,10 @@
     >
       <div class="container">
         <div class="row align-items-center">
-          <div class="mt-2 text-left col-10">
+          <div class="mt-2 text-left col-lg-10 col-md-9">
             <p>&copy; Esoftdream All Right Reserved</p>
           </div>
-          <div class="col-2">
+          <div class="col-lg-2 col-md-3">
             <div class="row">
               <a href="#" target="_blank" class="mx-3" title="Instagram"
                 ><i class="fab fa-instagram"></i
