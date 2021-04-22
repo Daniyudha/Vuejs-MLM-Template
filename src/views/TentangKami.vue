@@ -3,28 +3,28 @@
   <Navbar1/>
   <!-- START HERO -->
   <div class="container">
-  <div class="row">
-    <div class="col-lg-4 mt-des wow fadeInLeft" data-wow-delay="400ms">
+  <div class="row justify-content-center">
+    <div class="col-lg-4 col-md-12 col-sm-12 mt-des m-d text-md-center text-sm-center wow fadeInLeft" data-wow-delay="400ms">
       <h1>Tentang Kami</h1>
       <h6>Honeybee Madu dengan Beepolen</h6>
       <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying
         out print, graphic or web designs.</p>
     </div>
-    <div class="col-lg-4 wow fadeInDown mt-5-5">
-      <img class="" :src="require('@/assets/images/tentang kami/section-1-tentang-kami.png')" alt="">
+    <div class="col-lg-4 col-md-6 col-sm-6 col-6 wow fadeInDown mt-5-5 v-p">
+      <img class="img-tn" :src="require('@/assets/images/tentang kami/section-1-tentang-kami.png')" alt="">
     </div>
-    <div class="mt-ilus col-lg-3 offset-lg-1">
+    <div class="mt-ilus col-lg-3 offset-lg-1 col-md-5 col-sm-6 col-6">
       <div class="row mb-5 wow fadeInUp" data-wow-delay="400ms">
-        <img class="box" :src="require('@/assets/images/tentang kami/visi-misi.png')" alt="">
-        <h6 class="mt-4 ml-3 font-weight-bold">Visi & Misi</h6>
+        <img class="box sz" :src="require('@/assets/images/tentang kami/visi-misi.png')" alt="">
+        <h6 class="mt-4 ml-3 font-weight-bold p-v">Visi & Misi</h6>
       </div>
       <div class="row mb-5 wow fadeInUp" data-wow-delay="600ms">
-        <img class="box" :src="require('@/assets/images/tentang kami/bisnis-strategi.png')" alt="">
-        <h6 class="mt-4 ml-3 font-weight-bold">Bisnis & Strategi</h6>
+        <img class="box sz" :src="require('@/assets/images/tentang kami/bisnis-strategi.png')" alt="">
+        <h6 class="mt-4 ml-3 font-weight-bold p-v">Bisnis & Strategi</h6>
       </div>
       <div class="row mb-5 wow fadeInUp" data-wow-delay="800ms">
-        <img class="box" :src="require('@/assets/images/tentang kami/produk-berkualitas.png')" alt="">
-        <h6 class="mt-4 ml-3 font-weight-bold" font-weight-bold>Produk Berkualitas</h6>
+        <img class="box sz" :src="require('@/assets/images/tentang kami/produk-berkualitas.png')" alt="">
+        <h6 class="mt-4 ml-3 font-weight-bold p-v" font-weight-bold>Produk Berkualitas</h6>
       </div>
     </div>
   </div>
@@ -33,7 +33,7 @@
 
   <!-- START DESKRIPSI -->
   <div class="container">
-  <div class="text-center mt-5 container t">
+  <div class="text-center mt-5 container">
     <h5 class="font-weight-bold wow fadeInDown">TENTANG KAMI</h5>
     <h5 class="wow fadeInDown" data-wow-delay="200ms">SELAMAT DATANG DI KELUARGA BESAR <b
         class="text-kuning">HONEYBEE</b></h5>
@@ -44,45 +44,45 @@
       sed tincidunt facilisis. Integer eu est turpis.
       Maecenas faucibus eu risus eu fringilla. Nunc a rutrum velit. Ut in ex vel ligula venenatis commodo. Mauris
       pulvinar sit amet arcu vitae auctor. Cras a vestibulum ipsum. Aliquam id bibendum massa.</p>
-
-    <a href=""><img class="wow zoomIn" data-wow-delay="800ms" :src="require('@/assets/images/tentang kami/bg-video.png')" alt=""></a>
+    
+    <a href=""><img class="img-video wow zoomIn" data-wow-delay="800ms" :src="require('@/assets/images/tentang kami/bg-video.png')" alt=""></a>
   </div>
   </div>
   <!-- END DESKRIPSI -->
 
+  <!-- Background -->
   <div class="position-relative bgt">
-    <img class="w-100" :src="require('@/assets/images/beranda/bg-2-3.png')" alt="">
+    <img class="w-100 mb-bg" :src="require('@/assets/images/beranda/bg-2-3.png')" alt="">
   </div>
 
   <!-- START VISI MISI -->
   <div class="t2">
   <div class="row w-100 d-flex justify-content-center mt-5-5  wow fadeInDown">
-    <img class="box" :src="require('@/assets/images/tentang kami/visi-misi.png')" alt="">
+    <img class="box sz p-v" :src="require('@/assets/images/tentang kami/visi-misi.png')" alt="">
     <h6 class="mt-4 ml-3 font-weight-bold">Visi & Misi</h6>
   </div>
   <div class="container">
   <div class="row justify-content-center mt-5">
-    <div class="col-lg-5 col-md-4">
+    <div class="col-lg-5 col-md-4 col-sm-10 col-10">
       <div class="card mb-5 py-1 px-2 mb-lg-0 wow zoomIn" data-wow-delay="200ms">
         <div class="card-body">
           <h5 class="card-title text-left font-weight-bold">Visi</h5>
-          <p class="text-left mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi luctus purus et
+          <p class="text-justify mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi luctus purus et
             augue scelerisque tempus. In tellus enim, vulputate sit amet arcu facilisis, sagittis posuere ipsum. Nunc
             id magna id lectus iaculis molestie eu vel turpis. Vivamus in sapien eget risus eleifend accumsan.
             Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin et massa sit
-            amet erat aliquet condimentum.</p>
+            amet erat.</p>
         </div>
       </div>
     </div>
-    <div class="col-lg-5 col-md-4">
+    <div class="col-lg-5 col-md-4 col-sm-10 col-10">
       <div class="card mb-5 py-1 px-2 mb-lg-0 wow zoomIn" data-wow-delay="500ms">
         <div class="card-body">
           <h5 class="card-title text-left font-weight-bold">Misi</h5>
-          <p class="text-left mt-4">Praesent mattis pretium odio sit amet mattis. Etiam maximus felis sed tincidunt
+          <p class="text-justify mt-4">Praesent mattis pretium odio sit amet mattis. Etiam maximus felis sed tincidunt
             facilisis. Integer eu est turpis. Maecenas faucibus eu risus eu fringilla. Nunc a rutrum velit. Ut in ex
             vel ligula venenatis commodo. Mauris pulvinar sit amet arcu vitae auctor. Cras a vestibulum ipsum. Aliquam
-            id bibendum massa. Maecenas interdum nisl quis velit consequat, sit amet venenatis mi varius. Proin et massa sit
-            amet erat aliquet condimentum.</p>
+            id bibendum massa. Maecenas interdum nisl quis velit consequat, sit amet venenatis mi varius. Proin et mass..</p>
         </div>
       </div>
     </div>
@@ -98,8 +98,8 @@
   </div>
   <div class="container">
   <div class="row justify-content-center mt-5">
-    <div class="col-lg-5 col-md-4">
-      <div class="card py-1 px-2 mb-lg-0 wow zoomIn" data-wow-delay="200ms">
+    <div class="col-lg-5 col-md-4 col-sm-10 col-10">
+      <div class="card py-1 px-2 mb-lg-0 mb-4 wow zoomIn" data-wow-delay="200ms">
         <div class="card-body">
           <div class="text-center">
             <img class="text-center" :src="require('@/assets/images/tentang kami/satu-platform.png')" alt="">
@@ -111,8 +111,8 @@
         </div>
       </div>
     </div>
-    <div class="col-lg-5 col-md-4">
-      <div class="card py-1 px-2 mb-lg-0 wow zoomIn" data-wow-delay="500ms">
+    <div class="col-lg-5 col-md-4 col-sm-10 col-10">
+      <div class="card py-1 px-2 mb-lg-0 mb-4 wow zoomIn" data-wow-delay="500ms">
         <div class="card-body">
           <div class="text-center">
             <img class="text-center" :src="require('@/assets/images/tentang kami/manajemen-cepat.png')" alt="">
@@ -135,8 +135,8 @@
 
   <!-- START PRODUK BERKUALITAS -->
   <div class="container">
-  <div class="row t2">
-    <div class="col-lg-5 offset-lg-1 mt-des ">
+  <div class="row t2 justify-content-center">
+    <div class="col-lg-5 col-md-5 col-sm-10 col-11 offset-lg-1 mt-des des1">
       <div class="row wow fadeInLeft">
         <img class="box" :src="require('@/assets/images/tentang kami/produk-berkualitas.png')" alt="">
         <h6 class="mt-4 ml-3 font-weight-bold">Produk Berkualitas</h6>
@@ -147,18 +147,18 @@
         Nulla facilisi. Vivamus quis sagittis purus. Donec nec odio risus. Fusce aliquet dapibus justo, non tincidunt
         purus tristique sed. Phasellus elit eros, vulputate at massa suscipit, scelerisque molestie diam.</p>
     </div>
-    <div class="col-lg-5 offset-lg-1">
+    <div class="col-lg-5  col-md-6 col-sm-12 col-12 offset-lg-1">
       <div>
         <h3 class="m-branding wow fadeInUp" data-wow-delay="600ms">BRANDING UNTUK <br> BISNIS ANDA</h3>
-        <img class="ml-produk wow fadeInRight" :src="require('@/assets/images/tentang kami/branding.png')" alt="">
+        <img class="ml-produk gb-pro wow fadeInRight" :src="require('@/assets/images/tentang kami/branding.png')" alt="">
       </div>
       <div class="mt-3">
         <h3 class="m-solusi wow fadeInUp" data-wow-delay="1000ms">Solusi <br> Pengembangan</h3>
-        <img class="wow fadeInRight" data-wow-delay="400ms" :src="require('@/assets/images/tentang kami/solusi.png')" alt="">
+        <img class="gb-pro wow fadeInRight" data-wow-delay="400ms" :src="require('@/assets/images/tentang kami/solusi.png')" alt="">
       </div>
       <div class="mt-3 mb-5">
         <h3 class="m-branding wow fadeInUp" data-wow-delay="1400ms">Produk <br> Rancangan Bisnis</h3>
-        <img class="ml-produk wow fadeInRight" data-wow-delay="800ms" :src="require('@/assets/images/tentang kami/produk.png')" alt="">
+        <img class="ml-produk gb-pro wow fadeInRight" data-wow-delay="800ms" :src="require('@/assets/images/tentang kami/produk.png')" alt="">
       </div>
     </div>
   </div>

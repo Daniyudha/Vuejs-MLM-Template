@@ -215,16 +215,20 @@ body{
   }
 
 .g-slide{
-    margin-top: 155px;
+    margin-top: 300px;
     margin-bottom: 150px;
 }
 .g-slide2{
-  margin-top: 210px;
+  margin-top: 300px;
   margin-bottom: 172px;
 }
 .g-slide3{
-  margin-top: 147px;
-  margin-bottom: 150px;
+  margin-top: 100px;
+  margin-bottom: 33px;
+}
+
+.bg-s{
+  height: 850px;
 }
 
 @media(max-width: 1024px){
@@ -232,27 +236,88 @@ body{
     margin-top: 200px;
     margin-bottom: 196px;
   }
+  .g-slide2{
+    margin-top: 200px;
+    margin-bottom: 196px;
+  }
   .g-slide3{
-    margin-top: 161px;
-    margin-bottom: 161px;
+    margin-top: 20px;
+    margin-bottom: 38px;
+  }
+  .bg-s{
+    height: 711px;
   }
 }
 @media(max-width: 769px){
   .g-slide{
-    margin-top: 297px;
-    margin-bottom: 290px;
+    margin-top: 300px;
+    /* margin-bottom: 290px; */
+  }
+  .g-slide2{
+    margin-top: 200px;
+    /* margin-bottom: 162px; */
   }
   .g-slide3{
-    margin-top: 166px;
-    margin-bottom: 167px;
+    margin-top: 20px;
+    margin-bottom: 123px;
   }
   .g-slide3 img{
     width: 100%;
-    height: 75%;
+    height: auto;
   }
   .gmb{
     width: 250%;
     height: 80%;
+  }
+  .mt-md-slide3{
+    margin-top: 50px;
+  }
+  .bg-s{
+    height: 700px;
+  }
+}
+
+@media(max-width: 576px){
+  .g-slide{
+    margin-top: 100px;
+    margin-bottom: 10px;
+  }
+  .g-slide2{
+    margin-top: 90px;
+    margin-bottom: 50px;
+  }
+  .g-slide3{
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .g-slide3 img{
+    width: 100%;
+    height: auto;
+  }
+  .gmb{
+    width: 250%;
+    height: 80%;
+  }
+  .mt-md-slide3{
+    margin-top: 20px;
+  }
+  .bg-s{
+    height: 800px;
+  }
+  .aksen1{
+    display: none;
+  }
+  .mx{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .img-bg{
+    width: 300px;
+    height: 1218px;
+  }
+  .img-our{
+    width: 300px;
+    height: auto;
   }
 }
 
@@ -798,8 +863,84 @@ section.bergabung{
 }
 
 .t2{
-  margin-top: -900px;
+  margin-top: -800px;
   z-index: 100;
+}
+
+@media (max-width: 1024px){
+  .t1{
+    margin-top: -650px;
+    z-index: 100;
+  }
+  
+  .t2{
+    margin-top: -400px;
+    z-index: 100;
+  }
+}
+
+@media (max-width: 769px){
+  .t1{
+    margin-top: -650px;
+    z-index: 100;
+  }
+  
+  .t2{
+    margin-top: -200px;
+    z-index: 100;
+  }
+  .img-video{
+    width: 500px;
+    height: 200px;
+  }
+  .m-d{
+    margin-top: 120px;
+  }
+  .img-tn{
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 576px){
+  .mb-bg{
+    margin-bottom: 130px;
+  }
+  .t2{
+    margin-top: 100px;
+  }
+  .img-video{
+    width: 250px;
+    height: 120px;
+  }
+  .img-tn{
+    margin-top: -100px;
+    width: 200px;
+    height: 100;
+  }
+  .p-v{
+    font-size: 10px;
+  }
+  .sz{
+    width: 50px;
+    height: auto;
+  }
+  .mt-ilus{
+    margin-top: 0rem !important;
+  }
+  .des1{
+    margin-top: 80px;
+  }
+}
+
+@media(max-width: 325px){
+  .gb-pro{
+    width: 250px;
+    height: auto;
+  }
+  .m-solusi{
+    margin-left: 60px;
+  }
 }
 
 .btm {
@@ -923,6 +1064,8 @@ fieldset:disabled a.btn {
 
 section.business-1 {
   background-image: url("../images/business\ plan/bg-ilus-section-1.png");
+  max-width: 100%;
+  height: auto;
   z-index: -100;
 }
 
@@ -1356,7 +1499,7 @@ section.imageContainer {
 
 .stack-carousel .item {
   position: relative;
-  padding: 20px;
+  /* padding: 20px; */
   width: 100%;
 }
 
@@ -1530,4 +1673,21 @@ section.imageContainer {
 
 .font-kecil{
   font-size: small;
+}
+
+@media (max-width: 576px){
+  .h-p-sm{
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .p-p-sm{
+    font-size: 12px;
+  }
+  .text-sm-center{
+    text-align: center !important;
+  }
+  .img-our{
+    max-width: 100%;
+    height: auto;
+  }
 }

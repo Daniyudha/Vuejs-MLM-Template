@@ -32,14 +32,14 @@
       <hr />
       <div class="container">
         <div class="row footer-middle justify-content-center">
-          <div class="col-lg-4 col-md-10 col-sm-12 mb-5">
+          <div class="col-lg-4 col-md-12 col-sm-12 mb-5">
             <h5>lebahmadu co <b class="text-kuning">.</b></h5>
             <p>
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
               commodo ligula eget dolor. Aenean massa.
             </p>
           </div>
-          <div class="col-lg-2 offset-1 col-md-3">
+          <div class="col-lg-2 offset-lg-1 col-md-4">
             <h5>Hot links</h5>
             <ul class="list-unstyled text-small">
               <li><a href="index.html" class="">Home</a></li>

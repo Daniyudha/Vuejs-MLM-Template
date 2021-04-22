@@ -71,7 +71,7 @@
   </div>
   <!-- Background -->
   <div class="position-relative z bgt">
-    <img :src="require('@/assets/images/beranda/bg-section-2-3.png')" alt="">
+    <img class="img-bg" :src="require('@/assets/images/beranda/bg-section-2-3.png')" alt="">
   </div>
   <!-- Ilus -->
   <div class="row t1 mb-ilus mx-4-5 justify-content-center">
@@ -121,9 +121,9 @@
   <!-- START OUR PRODUCT -->
   <div class="mt-ilus row justify-content-center">
     <div class="col-lg-7 col-md-12 wow fadeInLeft">
-      <img :src="require('@/assets/images/beranda/ilus-produk-section-3.png')" alt="">
+      <img class="img-our" :src="require('@/assets/images/beranda/ilus-produk-section-3.png')" alt="">
     </div>
-    <div class="col-lg-4 col-md-8 mt-5-5">
+    <div class="col-lg-4 col-md-8 mt-5-5 mx">
       <div class="wow fadeInRight">
         <h4 class="font-weight-bold">Our Product</h4>
         <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web
@@ -148,7 +148,7 @@
         </div>
       </a>
     </div>
-    <div class="col-lg-1 col-md-1">
+    <div class="col-lg-1 col-md-1 col-sm-0">
       <img class="aksen1" :src="require('@/assets/images/tentang kami/bg-section-3.png')" alt="" srcset="">
     </div>
     <!-- <div class="offset-1"></div> -->

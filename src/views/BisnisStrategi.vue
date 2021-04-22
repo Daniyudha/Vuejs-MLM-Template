@@ -6,7 +6,7 @@
         <div class="text-center mt-des mb-5">
             <h5 class="wow fadeInDown" data-wow-delay="300ms">Business Plan</h5>
             <h1 class="text-kuning font-weight-bold wow fadeInDown" data-wow-delay="600ms">HONEYBEE</h1>
-            <img class="wow zoomIn mb-5-5" data-wow-delay="900ms" :src="require('@/assets/images/business plan/ilus-section-1-business-plan.png')" alt="">
+            <img class="wow zoomIn mb-5-5 img-fluid" data-wow-delay="900ms" :src="require('@/assets/images/business plan/ilus-section-1-business-plan.png')" alt="">
         </div>
         <!-- <img class="" src="assets/images/business plan/ilus-section-1-business-plan.png" alt=""> -->
     </section>

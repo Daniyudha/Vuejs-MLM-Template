@@ -1,6 +1,6 @@
 <template>
   <!-- START FOOTER -->
-  <div>
+  <div class="">
   <nav class=" navbar-expand-lg navbar-light bg-white px-4 mt-2">
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav m-auto mr-3">
@@ -32,12 +32,12 @@
     <hr>
     <div class="container">
       <div class="row footer-middle">
-        <div class="col-lg-4 col-md-3 col-sm-12">
+        <div class="col-lg-4 col-md-12 offset-md- col-sm-12 mb-5">
           <h5>lebahmadu co <b class="text-kuning">.</b></h5>
           <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
             dolor. Aenean massa. </p>
         </div>
-        <div class="col-lg-2 offset-1 col-md-3">
+        <div class="col-lg-2 offset-lg-1 col-md-4">
           <h5>Hot links</h5>
           <ul class="list-unstyled text-small">
             <li><a href="index.html" class="">Home</a></li>
@@ -46,7 +46,7 @@
             <li><a href="business plan.html" class="">Business Plan</a></li>
           </ul>
         </div>
-        <div class="col-lg-2 col-md-3">
+        <div class="col-lg-2 col-md-4">
           <h5>More info</h5>
           <ul class="list-unstyled text-small">
             <li><a href="#" class="">How it work</a></li>
@@ -55,7 +55,7 @@
             <li><a href="#" class="">Terms & Conditions</a></li>
           </ul>
         </div>
-        <div class="col-lg-3 col-md-3">
+        <div class="col-lg-3 col-md-4">
           <h5>Customer care</h5>
           <ul class="list-unstyled text-small">
             <li><a href="#" class="">FAQ</a></li>
@@ -74,10 +74,10 @@
     >
       <div class="container">
         <div class="row align-items-center">
-          <div class="mt-2 text-left col-10">
+          <div class="mt-2 text-left col-lg-10 col-md-9">
             <p>&copy; Esoftdream All Right Reserved</p>
           </div>
-          <div class="col-2">
+          <div class="col-lg-2 col-md-3">
             <div class="row">
               <a href="#" target="_blank" class="mx-3" title="Instagram"
                 ><i class="fab fa-instagram"></i
