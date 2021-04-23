@@ -432,6 +432,133 @@ body{
     margin-top: 11rem !important;
   }
 
+  .mt-best{
+    margin-top: 8rem !important;
+  }
+
+  .mt-ex{
+    margin-top: -650px;
+    z-index: 100;
+  }
+
+  .mt-51{
+    margin-top: 50px;
+  }
+
+  .gh-pro img{
+    width: 320px;
+  }
+
+  .mlm-plan{
+    margin-top: -1000px;
+  }
+
+  .mlh-pro{
+    margin-left: 30px;
+  }
+
+  .lk{
+    margin-top: 30px;
+  }
+  
+
+  @media (max-width:1025px){
+    .mt-best{
+      margin-top: 4rem !important;
+    }
+    .mt-51{
+      margin-top: 0px;
+    }
+    .mlm-plan{
+      margin-top: -1100px;
+    }
+    .gh-pro img{
+      width: 260px;
+    }
+    .mlh-pro{
+      margin-left: 20px;
+    }  
+    .l{
+      margin-left: -50px;
+    }
+    .lk{
+      margin-top: -80px;
+    }
+  }
+  @media (max-width:769px){
+    .mt-best{
+      margin-top: 0rem !important;
+    }
+    .mlm-plan{
+      margin-top: -1150px;
+    }
+    .gh-pro img{
+      width: 300px;
+    }
+    /* .mlh-pro{
+      margin-left: 20px;
+    }  
+    .l{
+      margin-left: 5px;
+    } */
+    .p-k{
+      margin-left: 200px;
+      margin-top: -180px;
+    }
+  }
+  @media (max-width:500px){
+    .mt-ex{
+      margin-top: -280px;
+      z-index: 100;
+    }
+    .gh-pro img{
+      width: 185px;
+    }
+    .mlh-pro{
+      margin-left: 20px;
+    }  
+    .l{
+      margin-left: 0px;
+    }
+    .lk{
+      margin-top: -280px;
+    }
+    .lk h1{
+      font-size: 28px;
+    }
+    .p-k{
+      margin-left: 30px;
+      margin-top: -200px;
+    }
+    .p-k h1{
+      font-size: 28px;
+    }
+    .p-k h5{
+      font-size: 16px;
+    }
+    .p-k p{
+      font-size: 12px;
+    }
+  }
+  @media (max-width:376px){
+    .mt-ex{
+      margin-top: -200px;
+      z-index: 100;
+    }
+    .gh-pro img{
+      width: 160px;
+    }
+  }
+  @media (max-width:326px){
+    .mt-ex{
+      margin-top: -150px;
+      z-index: 100;
+    }
+    .gh-pro img{
+      width: 135px;
+    }
+  }
+
   .mb-ilus{
     margin-bottom: 6.8rem !important;
   }
@@ -759,6 +886,17 @@ section.bergabung{
   background-color: #FFFFFF;
 }
 
+@media (max-width:1025px){
+  .card{
+    width: 280px;
+  }
+}
+@media (max-width:769px){
+  .card{
+    width: 240px;
+  }
+}
+
 .card-title {
   margin: 0.5rem 0;
   font-size: 1.2rem;
@@ -867,6 +1005,11 @@ section.bergabung{
   z-index: 100;
 }
 
+.mt-lebah{
+  margin-top: -650px;
+  z-index: 100;
+}
+
 @media (max-width: 1024px){
   .t1{
     margin-top: -650px;
@@ -897,7 +1040,7 @@ section.bergabung{
     margin-top: 120px;
   }
   .img-tn{
-    max-width: 100%;
+    max-width: 300px;
     height: auto;
   }
 }
@@ -931,6 +1074,31 @@ section.bergabung{
   .des1{
     margin-top: 80px;
   }
+  .mt-card{
+    margin-top: 50px !important;
+  }
+  .mt-lebah{
+    margin-top: -350px;
+    z-index: 100;
+  }
+  .mt-lebah h1{
+    font-size: 32px;
+  }
+  .f-p{
+    font-size: 22px;
+  }
+}
+@media (max-width: 376px){
+  .mt-lebah{
+    margin-top: -250px;
+    z-index: 100;
+  }
+  .mt-lebah h1{
+    font-size: 28px;
+  }
+  .f-p{
+    font-size: 20px;
+  }
 }
 
 @media(max-width: 325px){
@@ -940,6 +1108,19 @@ section.bergabung{
   }
   .m-solusi{
     margin-left: 60px;
+  }
+  .t2{
+    margin-top: 150px;
+  }
+  .mt-lebah{
+    margin-top: -150px;
+    z-index: 100;
+  }
+  .mt-lebah h1{
+    font-size: 23px;
+  }
+  .f-p{
+    font-size: 18px;
   }
 }
 
@@ -1048,7 +1229,7 @@ fieldset:disabled a.btn {
 }
 
 .bg-teks{
-  margin-left: 150px;
+  margin-left: 230px;
   overflow: hidden;
 }
 
@@ -1103,6 +1284,47 @@ section.business-1 {
   }
 }
 
+@media (max-width: 1025px){
+  .card-business {
+    border: none;
+    border-radius: 1rem;
+    transition: all 0.2s;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+    width: 220px;
+    background-color: #FFFFFF;
+  }
+}
+@media (max-width: 576px){
+  .card-business {
+    border: none;
+    border-radius: 1rem;
+    transition: all 0.2s;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+    width: 190px;
+    background-color: #FFFFFF;
+  }
+}
+@media (max-width: 376px){
+  .card-business {
+    border: none;
+    border-radius: 1rem;
+    transition: all 0.2s;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+    width: 170px;
+    background-color: #FFFFFF;
+  }
+}
+@media (max-width: 326px){
+  .card-business {
+    border: none;
+    border-radius: 1rem;
+    transition: all 0.2s;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+    width: 150px;
+    background-color: #FFFFFF;
+  }
+}
+
 .card-mlm{
   border: none;
   border-radius: 1rem;
@@ -1111,6 +1333,15 @@ section.business-1 {
   width: 250px;
   height: 340px;
   background-color: #FFFFFF;
+}
+@media (max-width: 1025px){
+  .card-mlm{
+    width: 230px;
+    height: 320px;
+  }
+  .card-body{
+    padding: 5px;
+  }
 }
 
 .slider-card{
