@@ -854,6 +854,7 @@ section.bergabung{
 
 .navbar-f{
   box-shadow: 0 -2px 2px 0 rgba(44, 44, 44, 0.3);
+  padding: 10px;
 }
 
 .bg-navtk{
@@ -1790,7 +1791,7 @@ section.imageContainer {
 }
 .promo-prev{
   color: rgb(139, 139, 139);
-  left: 5%;
+  left: 43%;
   top: 90%;
   background-color: #fff;
   width: 50px;
@@ -1802,7 +1803,7 @@ section.imageContainer {
 }
 .promo-next{
   color: rgb(139, 139, 139);
-  left: 13%;
+  left: 52%;
   top: 90%;
   background-color: #fff;
   width: 50px;
@@ -1927,4 +1928,8 @@ section.imageContainer {
     max-width: 100%;
     height: auto;
   }
+}
+
+#slide-news .owl-prev, #slide-news .owl-next {
+  background: none !important;
 }
