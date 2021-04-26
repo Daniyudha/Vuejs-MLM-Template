@@ -238,11 +238,11 @@
 
 <script>
 // @ is an alias to /src
-import NavbarHome from '@/components/NavbarHome.vue'
-import HeroCarousel from '@/components/HeroCarousel.vue'
-import Bergabung from '../components/Bergabung.vue'
-import Footer1 from '../components/Footer1.vue'
-import Promo from '../components/Promo.vue'
+import NavbarHome from './components/NavbarHome.vue'
+import HeroCarousel from './components/HeroCarousel.vue'
+import Bergabung from '@/components/Bergabung.vue'
+import Footer1 from '@/components/Footer1.vue'
+import Promo from './components/Promo.vue'
 
 export default {
   name: 'Home',

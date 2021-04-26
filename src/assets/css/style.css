@@ -4,6 +4,11 @@ body{
   font-family: 'Poppins', sans-serif;
 }
 
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 .navbar-light .navbar-nav .nav-link {
     color: #000000;
 }
@@ -323,6 +328,7 @@ body{
 
 .aksen1{
   margin-top: -200px;
+  margin-left: -10px;
 }
 
   .mt-des{

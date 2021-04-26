@@ -1,7 +1,6 @@
 <template>
   <carousel
     :per-page="1"
-    :navigate-to="someLocalProperty"
     :mouse-drag="true"
     :autoplay="true"
     :loop="true"

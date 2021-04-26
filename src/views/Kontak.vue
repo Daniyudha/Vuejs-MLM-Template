@@ -16,8 +16,8 @@
                 lainnya. Kami juga melayani keluhan dan komplain 24 jam.</p>
             <p class="fa fa-map-marked-alt text-kuning ml-2 wow fadeInRight" data-wow-delay="1000ms"><b class="ml-3 text-dark">Yogyakarta</b></p> <br>
             <p class="fa fa-phone text-kuning ml-2 wow fadeInRight" data-wow-delay="1100ms"><b class="ml-3 text-dark">0813-6754-1987</b></p> <br>
-            <p class="fa fa-envelope text-kuning ml-2 wow fadeInRight" data-wow-delay="1200ms"><b class="ml-3 text-dark">Loremipsum@gmail.com</b></p>
-            <button class="btn-hubungi wow fadeInUp" data-wow-delay="1500ms">Hubungi Kami</button>
+            <p class="fa fa-envelope text-kuning ml-2 wow fadeInRight" data-wow-delay="1200ms"><b class="ml-3 text-dark">Loremipsum@gmail.com</b></p> <br>
+            <button class="btn-hubungi mt-3 wow fadeInUp" data-wow-delay="1500ms">Hubungi Kami</button>
         </div>
     </div>
     </div>
